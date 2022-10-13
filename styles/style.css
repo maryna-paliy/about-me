@@ -81,7 +81,7 @@ h3 {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   h2 {
     font-size: 24px;
   }
@@ -90,8 +90,36 @@ h3 {
   }
   h3 {
     font-size: 18px;
+    padding: 0 10px;
   }
   .home-img {
     display: none;
+  }
+  .main-link {
+    padding: 15px 10px;
+  }
+  .secondary-link {
+    padding: 15px 10px;
+  }
+  img {
+    margin: 10px 0;
+  }
+  .navigation-links {
+    margin: 0;
+  }
+}
+@media (max-width: 350px) {
+  .main-link {
+    font-size: 10px;
+    padding: 10px 5px;
+    margin: 10px;
+  }
+  .secondary-link {
+    font-size: 10px;
+    padding: 10px 5px;
+    margin: 10px;
+  }
+  .email-link {
+    font-size: 20px;
   }
 }
